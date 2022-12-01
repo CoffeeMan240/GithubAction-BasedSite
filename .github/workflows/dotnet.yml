@@ -22,11 +22,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: gotobin
-      run: cd bin
-    - name: gotobinagain
-      run: cd bin
-    - name: gotocore
-      run: cd netcoreapp3.1
+      run: dotnet run /bin/netcoreapp3.1/CANYUOUPOSTONGITHUBNOW.dll
     - name: RunMaybe
       run: dotnet CANYUOUPOSTONGITHUBNOW.dll
 
