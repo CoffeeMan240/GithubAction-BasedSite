@@ -24,7 +24,7 @@ jobs:
     - name: gotobin
       run: cd bin
     - name: gotocore
-      run: cd netcoreapp3.1
+      run: dir
     - name: RunMaybe
       run: dotnet CANYUOUPOSTONGITHUBNOW.dll
 
