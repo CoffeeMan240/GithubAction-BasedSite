@@ -21,8 +21,10 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    - name: gotobuild
-      run: cd bin/netcoreapp3.1/
+    - name: gotobin
+      run: cd bin
+    - name: gotocore
+      run: cd netcoreapp3.1
     - name: RunMaybe
       run: dotnet CANYUOUPOSTONGITHUBNOW.dll
 
