@@ -12,7 +12,7 @@ namespace CANYUOUPOSTONGITHUBNOW
         {
             Console.WriteLine("Hello World!");
             HttpListener server = new HttpListener();
-            server.Prefixes.Add("http://0.0.0.0:6969/");
+            server.Prefixes.Add("http://localhost:6969/");
             for(; ; )
             {
                 server.Start();
