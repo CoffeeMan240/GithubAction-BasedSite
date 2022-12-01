@@ -25,4 +25,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Run
-      run: dotnet /bin/netcoreapp3.1/CANYUOUPOSTONGITHUBNOW.dll
+      run: dir
+      run dotnet CANYUOUPOSTONGITHUBNOW.dll
